@@ -6,7 +6,10 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="welcome.html">
+    <fieldset>
+        <legend align="center"><fieldset>Fill Details</fieldset></legend>
+    <!-- <form action="welcome.html" method="get"> -->
+    <form action="welcome.html" method="post">
     <table align="center">
         <caption><h3>Registration Form</h3></caption>
         <tr>
@@ -14,7 +17,7 @@
                 <label for="username">Username</label>
             </td>
             <td>
-                <input type="text" id="username" name="username" placeholder="Enter Username">
+                <input required type="text" value="andrew@gmail.com" readonly id="username" name="username" placeholder="Enter Username">
             </td>
         </tr>
         <tr>
@@ -22,7 +25,7 @@
                 <label for="email">Email</label>
             </td>
             <td>
-                <input type="email" id="email" name="email" placeholder="Enter Email">
+                <input required type="email" id="email" name="email" placeholder="Enter Email">
             </td>
         </tr>
         <tr>
@@ -30,7 +33,7 @@
                 <label for="password">Password</label>
             </td>
             <td>
-                <input type="password" id="password" name="password" placeholder="Enter Password">
+                <input required type="password" id="password" name="password" placeholder="Enter Password">
             </td>
         </tr>
         <tr>
@@ -38,7 +41,7 @@
                 <label for="contact">Contact</label>
             </td>
             <td>
-                <input type="text" maxlength="10" id="contact" name="contact" placeholder="Enter 10-digit contact number">
+                <input required type="text" maxlength="10" id="contact" name="contact" placeholder="Enter 10-digit contact number" pattern="[6789][0-9]{9}">
             </td>
         </tr>
         <tr>
@@ -46,7 +49,7 @@
                 <label for="date">DOB</label>
             </td>
             <td>
-                <input type="date" id="date" name="date">
+                <input required type="date" id="date" name="date">
             </td>
         </tr>   
        <tr>
@@ -54,9 +57,9 @@
                 <label for="male">Gender</label>
             </td>
             <td>
-                <input checked type="radio" id="male" name="gender">
+                <input checked type="radio" id="male" value="male" name="gender">
                 <label for="male">Male</label>
-                <input type="radio" id="female" name="gender">
+                <input type="radio" id="female" value="female" name="gender">
                 <label for="female">Female</label>
             </td>
         </tr>
@@ -65,9 +68,9 @@
                 <label for="cricket">Hobbies</label>
             </td>
             <td>
-                <input checked type="checkbox" id="cricket" name="cricket">
+                <input checked type="checkbox" id="cricket" value="cricket" name="cricket">
                 <label for="cricket">Cricket</label>
-                <input type="checkbox" id="football" name="football">
+                <input type="checkbox" id="football" value="football" name="football">
                 <label for="football">Football</label>
             </td>
         </tr>
@@ -76,7 +79,7 @@
                 <label for="subject">Subject</label>
             </td>
             <td>
-                <select name="subject" id="subject">
+                <select required name="subject" id="subject">
                     <option value="">Select Subject</option>
                     <option value="C Language">C Language</option>
                     <option selected value="C++ Language">C++ Language</option>
@@ -90,7 +93,7 @@
                 <label for="address">Address</label>
             </td>
             <td>
-                <textarea name="address" id="address" rows="3" cols="21" placeholder="Enter Address"></textarea>
+                <textarea required name="address" id="address" rows="3" cols="21" placeholder="Enter Address"></textarea>
             </td>
         </tr>
         <tr>
@@ -98,7 +101,7 @@
                 <label for="file">ProfilePic</label>
             </td>
             <td>
-                <input type="file" name="file" id="file">
+                <input required type="file" name="file" id="file">
             </td>
         </tr>
         <tr>
@@ -110,5 +113,6 @@
         </tr>
     </table>
     </form>
+    </fieldset>
 </body>
 </html>
