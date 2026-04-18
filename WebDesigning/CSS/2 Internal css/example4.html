@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* element | tag selector */
+        span{
+            color:red
+        }
+        /* descendent selector */
+        p span{
+            color:orange;
+        }
+        div p span {
+            color:purple;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <p>
+            <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, necessitatibus.</span>
+        </p>
+    </div>
+    <p>
+        <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, necessitatibus.</span>
+    </p>
+    <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque, necessitatibus.</span>
+
+</body>
+</html>
