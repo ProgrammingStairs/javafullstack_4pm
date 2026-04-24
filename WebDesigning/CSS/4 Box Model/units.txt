@@ -1,0 +1,50 @@
+Different ways to implement units : 
+1. px = pixel = picture element
+   size is fixed
+   parent = 500px
+   child = 300px
+
+   if parent change 
+   parent = 200px 
+   child = 300px
+   
+2. % = percentage
+   size depends on parent 
+   parent = 100%
+   child = 75%
+
+   if parent change 
+   parent = 50% 
+   child = 75% but of 50%
+
+3. em = empherical units
+   default value of 1em = 16px 
+   2em = 32px 
+   2.5em = 40px
+
+   if parent is 20px 
+   value of 1em = 20px 
+   2em = 40px 
+   2.5em = 50px
+
+   rem = root empherical unit 
+   default value of 1rem = 16px 
+   2rem = 32px 
+   2.5rem = 40px
+
+   if html root is 20px 
+   value of 1rem = 20px 
+   2rem = 40px 
+   2.5rem = 50px
+
+4. vh and vw
+   vh means viewport height
+   vw means viewport width
+
+   1vw = 1% of device width(500px)
+   1vw = 1/100 x 500 = 5px 
+   20vw = 100px
+
+   1vh = 1% of device height(500px)
+   1vh = 1/100 x 500 = 5px 
+   20vh = 100px
