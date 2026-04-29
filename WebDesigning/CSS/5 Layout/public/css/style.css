@@ -1,0 +1,54 @@
+#container{
+    height:auto;
+    width: 100%;
+    /* background-color: red; */
+}
+#header{
+    height: 60px;
+    width: 100%;
+    border-style: solid;
+}
+#banner{
+    height: 530px;
+    width: 100%;
+    border-style: solid;
+}
+#footer{
+    height: 50px;
+    width: 100%;
+    border-style: solid;
+}
+#section1{
+    height: 100%;
+    width: 25%;
+    border-style: solid;
+    float: left;
+}
+#section2{
+    height: 100%;
+    width: 50%;
+    border-style: solid;
+    float: left;
+}
+#section3{
+    height: 100%;
+    width: 24%;
+    border-style: solid;
+    float: left;
+}
+#circle{
+    height: 220px;
+    width:220px;
+    margin: 30px;
+    margin-left: 45px;
+    border-radius: 50%;
+    border-style: solid;
+}
+#rectangle{
+    height: 49.5%;
+    border-style: solid;
+}
+#box{
+    height: 32.5%;
+    border-style: solid;
+}

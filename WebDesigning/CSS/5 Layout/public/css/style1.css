@@ -1,0 +1,40 @@
+*{
+    margin:0;
+}
+#coverpage{
+    height: 300px;
+}
+#img{
+    height: 300px;
+    width: 100%;
+}
+#userprofile{
+    height: 150px;
+    width: 150px;
+    margin-left: 75px;
+    margin-top: -75px;
+    border-radius: 50%;
+}
+#user{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    background-color: white;
+}
+#box{
+    height: auto;
+    padding: 30px;
+}
+#section{
+    height: 160px;
+    width: 260px;
+    float: left;
+    margin-left: 70px;
+    background-color: white;
+    box-shadow: 1px 1px 30px 2px #234567;
+    border-radius: 20px;
+    font-size: 20px;
+    font-family: candara;
+    text-align: justify;
+    padding: 20px;
+}
